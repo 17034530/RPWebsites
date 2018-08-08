@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewCat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/category" />
+
+    <Spinner
+        android:id="@+id/spinnerCat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/category_type" />
+
+    <TextView
+        android:id="@+id/textViewSub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sub" />
+
+    <Spinner
+        android:id="@+id/spinnerSub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/sub_RP" />
+
+    <Button
+        android:id="@+id/buttonGO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/go" />
+</LinearLayout>
